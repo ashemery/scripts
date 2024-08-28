@@ -1,6 +1,6 @@
 # Ensure script accepts two arguments
 if ($args.Count -ne 2) {
-    Write-Host "Usage: .\wrapper.ps1 <obfuscatedFilePath> <password>"
+    Write-Host "Usage: .\LoadObfuscatedScript.ps1 <obfuscatedFilePath> <password>"
     exit
 }
 
